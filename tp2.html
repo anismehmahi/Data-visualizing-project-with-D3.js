@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>TP Infovis Cas données réelles</title>
+    <link rel="stylesheet" href="ressources/tp2.css">
+        
+</head>
+
+<body>
+   
+    <div class="header">
+        <h4>TP02 INFOVIS SID1</h4>
+        <h4>Données Réelles</h4>
+
+    <p>Choisissez les données à afficher :</p>
+    <label for="python">Python:</label> 
+    <input type="checkbox" id="python" onclick="myFunction()" checked>
+    <label for="r">Language R:</label> 
+    <input type="checkbox" id="r" onclick="myFunction()" checked>
+    <label for="matlab">Matlab:</label> 
+    <input type="checkbox" id="matlab" onclick="myFunction()" checked>
+
+    </div>
+    
+    <div class="svg_main">
+           <svg width="1200" height="500" ></svg>
+    </div>
+
+       
+  
+    <script src="https://d3js.org/d3.v4.js"></script>
+    <script src="ressources/fisheye.js"></script>
+    <script src="ressources/ajouts.js"></script>
+</body>
+
+</html>
